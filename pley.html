@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pley - listen your favourite song</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="pley.css">
+</head>
+<body>
+    <div class="content">
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+              <a class="green-hover" href="#">Pley</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">About us</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <div class="content2">
+            <div class="songlist">
+                <div class="heading">
+                    <span class="headi"> Pley, </span> <span class="mpfe"> Music Player For Everyone. </span>
+                </div>
+                <div class="songs">
+                  <div class="block">
+                      <img src="coverImg/susume.jpg" class="card-img2" alt="suzume">
+                      <div class="pley_icon">
+                        <i class="fa-solid fa-circle-play mini_pley" id="0"></i>
+                      </div>
+                      <div class="title">
+                        Suzume
+                      </div>
+                      <div class="description">
+                        RADWIMPS, Toaka
+                      </div>                     
+                  </div>    
+
+                  <div class="block">
+                    <img src="coverImg/falling.png" class="card-img2" alt="Falling">
+                    <div class="pley_icon">
+                      <i class="fa-solid fa-circle-play mini_pley" id="1"></i>
+                    </div>
+                    <div class="title">
+                      Falling
+                    </div>
+                    <div class="description">
+                      Trevor Daniel
+                    </div>  
+                  </div>    
+
+                  <div class="block">
+                    <img src="coverImg/arc.png" class="card-img2" alt="arcade">
+                    <div class="pley_icon">
+                      <i class="fa-solid fa-circle-play mini_pley" id="2"></i>
+                    </div>
+                    <div class="title">
+                      Arcade
+                    </div>
+                    <div class="description">
+                      Duncan Laurence
+                    </div> 
+                  </div>    
+
+                  <div class="block">
+                      <img src="coverImg/levi.jpg" class="card-img2" alt="Levitating">
+                      <div class="pley_icon">
+                        <i class="fa-solid fa-circle-play mini_pley" id="3"></i>
+                      </div>
+                      <div class="title">
+                        Levitating
+                      </div>
+                      <div class="description">
+                        Dua Lipa
+                      </div> 
+                  </div>    
+
+                  <div class="block">
+                    <img src="coverImg/run.jpg" class="card-img2" alt="Runaway">
+                    <div class="pley_icon">
+                      <i class="fa-solid fa-circle-play mini_pley" id="4"></i>
+                    </div>
+                    <div class="title">
+                      Runaway
+                    </div>
+                    <div class="description">
+                      Aurora
+                    </div>
+              
+                  </div>
+
+                  <div class="block">
+                    <img src="coverImg/soy.jpg" class="card-img2" alt="Perfect">
+                    <div class="pley_icon">
+                      <i class="fa-solid fa-circle-play mini_pley" id="5"></i>
+                    </div>
+                    <div class="title">
+                      Perfect
+                    </div>
+                    <div class="description">
+                      ED Sheeran
+                    </div>
+                      
+                  </div>
+
+                  <div class="block">
+                    <img src="coverImg/indbby.jpg" class="card-img2" alt="Levitating">
+                    <div class="pley_icon">
+                      <i class="fa-solid fa-circle-play mini_pley" id="6"></i>
+                    </div>
+                    <div class="title">
+                      Industrial Baby
+                    </div>
+                    <div class="description">
+                      Lil Nas X, Jack harlow
+                    </div>
+                      
+                  </div>   
+
+                  <div class="block">
+                    <img src="coverImg/until.png" class="card-img2" alt="Until I found you">
+                    <div class="pley_icon">
+                      <i class="fa-solid fa-circle-play mini_pley" id="7"></i>
+                    </div>
+                    <div class="title">
+                      Until I Found You
+                    </div>
+                    <div class="description">
+                      Stephen sanchez
+                    </div>
+                    
+                  </div>   
+                </div>
+            </div>
+            <div class="footer">
+              <div class="footer-content">
+                <img id="main_img" src="coverImg/susume.jpg" alt="img" class="main-img">
+                <div class="texts">
+                  <div id="mastersongname">
+                    Suzume
+                  </div>
+                  <div id="description">
+                    RADWIMPS, Toaka
+                  </div>
+                </div>
+              </div>
+              <div class="bottom"> 
+                <div class="icons">
+                    <i class="fa-solid fa-shuffle" id="random"></i>
+                    <i class="fa-solid fa-backward-step" id="previous"></i>
+                    <i class="fa-solid fa-circle-play" id="masterplay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                    <i class="fa-solid fa-repeat" id="again"></i>
+                </div>
+                <div class="seeker">
+                    <input class="seekline" type="range" name="range" id="myprogressbar" min="0" max="100" value="0"> 
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="pley.js"> </script>
+<script src="https://kit.fontawesome.com/b24b4701b8.js" crossorigin="anonymous"></script>
+</body>
+</html>
